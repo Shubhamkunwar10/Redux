@@ -62,7 +62,7 @@ const fetchUser=()=>{
     return function(dispatch){
         dispatch(fetchUserRequest())
         axios.get("https://jsonplaceholder.typicode.com/users").then(res=>{
-            const users=res.data.map((user)=>user.address)
+            const users=res.data.map((user)=>user.id)
             dispatch(fetchUserSuccess(users))
         }).catch((err)=>{
             dispatch(fetchUserFailed(err.message))
@@ -74,7 +74,8 @@ const fetchUser=()=>{
 
 const store=createStore(userReducer,applyMiddleware(thunkMiddleware))
 
-console.log("Initial State:", store.getState());
+store.dispatch(fetchUser())
 
 store.subscribe(()=>{console.log(store.getState())})
-store.dispatch(fetchUser())
+console.log("Initial State:", store.getState());
+
