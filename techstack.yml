@@ -1,0 +1,109 @@
+repo_name: Shubhamkunwar10/Redux
+report_id: 7c1a8ef0584c4d217c6e8b173ff6339e
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-11T07:15:50+00:00'
+requested_by: Shubhamkunwar10
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux
+  detection_source: Repo Metadata
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 5.0.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/RTK/package-lock.json
+  detection_source: package.json
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 09:57:05.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 09:57:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux
+  detection_source: Repo Metadata
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 08:08:13.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 08:08:13.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 09:57:05.000000000 Z
+- name: redux-logger
+  description: Logger for Redux
+  package_url: https://www.npmjs.com/redux-logger
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/Shubhamkunwar10/Redux/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: shubhamkunwar10
+  last_updated_on: 2024-01-08 09:57:05.000000000 Z
